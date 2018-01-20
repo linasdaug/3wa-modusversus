@@ -172,3 +172,424 @@ li:active {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+.services {
+    background-color: #f8f8f8;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 30px;
+    height: 310px;
+    box-shadow: 0px 3px 3px 0px rgba(50,50,50,0.25);
+    margin: 0 15px 50px 15px;
+}
+
+.services h3 {
+    color: #62b9b0;
+    font-size: 60px;
+}
+
+.services h4 {
+    color: rgb(127,140,140);
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.services p {
+    color: rgb(119,119,119);
+    font-size: 13px;
+    line-height: 19px;
+    padding: 15px;
+}
+
+.services-button-wrapper {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    top: 270px;
+    background-color: #62b9b0;
+}
+
+.services-button-wrapper a {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.services:hover > h3 {
+    color: rgb(226,83,75);
+}
+
+.services:hover > .services-button-wrapper {
+    background-color: rgb(226,83,75);
+}
+
+.whymodus {
+    background: url("img/Pathup.png") top no-repeat white;
+    background-color: #ececec;
+    text-align:center;
+}
+
+.whymodus h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(225,82,75);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.whymodus p {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgb(119,119,119);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.yourimages {
+    background-image: -ms-linear-gradient(top, #ececec 50%, #ececec 50%, #f3f3f3 50%, #f3f3f3 100%);
+    background-image: -moz-linear-gradient(top, #ececec 50%, #ececec 50%, #f3f3f3 50%, #f3f3f3 100%);
+    background-image: -o-linear-gradient(top, #ececec 50%, #ececec 50%, #f3f3f3 50%, #f3f3f3 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50, #ececec), color-stop(50, #ececec), color-stop(50, #f3f3f3), color-stop(100, #f3f3f3));
+    background-image: -webkit-linear-gradient(top, #ececec 50%, #ececec 50%, #f3f3f3 50%, #f3f3f3 100%);
+    background-image: linear-gradient(to bottom, #ececec 50%, #ececec 50%, #f3f3f3 50%, #f3f3f3 100%);
+    padding: 80px 0;
+}
+
+.thumbnail .caption {
+    color: white;
+    font-size: 0.8em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    padding-left: 0px;
+}
+
+
+#centralimage {
+    transform: scale(1.4, 1.4);
+    font-size: 0.7em;
+    z-index: 1;
+}
+
+.thumbnail {
+    background-color: #c1c7c8;
+    border-radius: 8px;
+}
+
+.thumbnail img {
+    border-radius: 8px;
+}
+
+.minus {
+    text-align: right;
+}
+
+.endpromo {
+    background-color: #f3f3f3;
+}
+
+.endpromo h4 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+    text-align: left;
+}
+
+.endpromo-whychoose ul {
+    padding: 0;
+}
+
+.endpromo-whychoose ul li {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 26px;
+    color: rgb(119,119,119);
+}
+
+.endpromo-whychoose ul li i {
+    color: rgb(225,82,75);
+}
+
+.endpromo-statistics p {
+    font-size: 13px;
+    color: rgb(119,119,119);
+    padding: 0 20px;
+}
+
+.endpromo-statistics-graph {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.endpromo-statistics-graph h1 {
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+}
+
+.endpromo-statistics-graph h2 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+}
+
+.endpromo-statistics-graph-number {
+    text-align: center;
+}
+
+.endpromo-statistics-graph-number img {
+    width: 120px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.endpromo-statistics-graph-number h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30px;
+}
+
+.endpromo-statistics .col-md-6, .col-sm-6, .col-xs-12 {
+    padding-left: 0;
+}
+
+.endpromo-statistics .col-md-3, .col-sm-6, .col-xs-12 {
+    padding-right: 0;
+}
+
+.endpromo-whatsay p {
+    font-size: 13px;
+    color: rgb(119,119,119);
+}
+
+.endpromo a {
+    color: rgb(225,82,75);
+    text-decoration: none;
+}
+
+.endpromo a:hover {
+    color: rgb(225,82,75);
+    text-decoration: underline;
+}
+
+.speech {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 0 0 15px;
+}
+
+.speech:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  bottom: -30px;
+  border: 15px solid;
+  border-color: #ffffff transparent transparent #ffffff;
+}
+
+.johndoe {
+    padding-left: 85px;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(119,119,119);
+    font-weight: bold;
+}
+
+.happy-clients {
+    background-color: #f3f3f3;
+}
+
+.happy-clients h3 {
+    font-size: 16px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+    text-align: left;
+    background-color: #f3f3f3;
+    text-transform: capitalize;
+}
+
+.happy-clients-header {
+    border-bottom: 1px solid rgb(127,140,140);
+}
+
+.happy-clients-heading {
+    position: relative;
+    top: 19px;
+    background-color: #f3f3f3;
+    z-index: 1;
+}
+
+.happy-clients-heading i {
+    font-size: 7px;
+}
+
+.clientlogo {
+    padding: 32px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.clientlogo:hover {
+    background-color: #ececec;
+}
+
+.chevrons {
+    position: relative;
+    width: 145px;
+    background-color: #f3f3f3;
+    padding-right: 20px;
+    padding-left: 15px;
+    z-index: 1;
+    top: 30px;
+}
+
+.chevrons a {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    line-height: 24px;
+    width: 40px;
+    height: 37px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.chevron-holder {
+    background-color: rgb(127,140,140);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.chevron-holder:hover {
+    background-color: #e2534b;
+}
+
+.chevron-holder:hover a {
+    color: white;
+}
+
+#happy-client-logos {
+    margin-top: 60px;
+}
+
+footer {
+    background: url("img/Pathfooter.png") top no-repeat white;
+    background-color: #76c7c0;
+    color: white;
+    padding-top: 30px;
+}
+
+.footer-address a {
+    color: white;
+}
+
+.navbar-brand {
+    padding: 10px 0;
+}
+
+.footer-address h1 span {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-address h1 {
+    font-size: 25px;
+}
+
+.footer-address-details {
+    font-size: 20px;
+    line-height: 36px;
+    font-style: italic;;
+}
+
+.footer-address p {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+footer h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    font-size: 13px;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-media h1 {
+    font-weight: 800;
+}
+
+.footer-media span {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.media-date {
+    color: rgb(127,140,140);
+}
+
+.media-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #5e9f9a;
+}
+
+.media-photo p {
+    font-size: 30px;
+    padding: 18px;
+    line-height: 30px;
+    background-color: (255, 255, 255, 0.2);
+    color: white;
+}
+
+.media-body p {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.footer-brand:hover {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .thumbnail .caption {
+        font-size: 0.8em;
+    }
+}
