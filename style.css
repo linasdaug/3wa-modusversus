@@ -131,6 +131,7 @@ li:active {
     transform: translate(-50%, -50%);
     margin: 0;
     text-align: center !important;
+    right: 0;
 }
 
 .carousel-caption h1 {
@@ -173,6 +174,10 @@ li:active {
     padding-bottom: 0;
 }
 
+.services-wrapper {
+    padding: 0 15px 50px 15px;
+}
+
 .services {
     background-color: #f8f8f8;
     text-align: center;
@@ -181,7 +186,7 @@ li:active {
     margin-top: 30px;
     height: 310px;
     box-shadow: 0px 3px 3px 0px rgba(50,50,50,0.25);
-    margin: 0 15px 50px 15px;
+    /* margin: 0 15px 50px 15px; */
 }
 
 .services h3 {
@@ -550,6 +555,10 @@ footer ul li a:hover {
     text-decoration: underline;
 }
 
+.footer-media {
+    margin-bottom: 15px;
+}
+
 .footer-media h1 {
     font-weight: 800;
 }
@@ -586,6 +595,218 @@ footer ul li a:hover {
 .footer-brand:hover {
     text-decoration: none;
 }
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 15px 0 0 0;
+}
+
+.footer-bottom ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+.footer-bottom ul li a {
+    color: white;
+    font-size: 22px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+}
+
+
+/* PORTFOLIO STYLES */
+
+
+.portfolio-heading {
+    background-color: #ececec;
+    padding: 10px 0 20px 0;
+}
+
+.portfolio-heading:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 80px;
+  bottom: -30px;
+  border: 15px solid;
+  border-color: red transparent transparent red
+}
+
+.portfolio-heading h2 {
+    font-size: 20px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.portfolio-heading ul {
+    text-align: right;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.portfolio-heading ul li {
+    list-style-type: none;
+    color: rgb(127,140,140);
+    font-size: 12px;
+    display: inline;
+}
+
+.portfolio-heading ul li a {
+    color: rgb(127,140,140);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.portfolio-heading ul li a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-content ul {
+    padding: 40px 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.portfolio-content ul li {
+    display: inline;
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: #7f8c8c;
+    padding: 4px 2px 7px 1px;
+    margin-right: 9px;
+}
+
+.portfolio-content ul li a {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#portfolio-active {
+    background-color: #62a29e;
+    margin-right: 0;
+}
+
+.portfolio-item {
+    margin-bottom: 10px;
+}
+
+.portfolio-picture-wrapper {
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 3px 3px 0px rgba(50,50,50,0.25);
+}
+
+.portfolio-picture {
+    width: 100%;
+    height: 45%;
+}
+
+.portfolio-picture h1 {
+    font-size: 100px;
+    color: rgb(236,236,236);
+    text-align: center;
+}
+
+.viewdetails {
+    background-color: #65bcbe;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0;
+    cursor: pointer;
+    padding: 1px 2px 4px 1px;
+}
+
+.viewdetails:hover {
+    background-color: #e8645a;
+}
+
+.viewdetails a {
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.viewdetails a:hover {
+    color: white;
+}
+
+.portfolio-item-info {
+    padding: 0 30px;
+}
+
+.portfolio-info-ref {
+    padding: 0 30px;
+}
+
+.portfolio-info-ref:hover > h4 a {
+    color: #e8645a;
+    text-decoration: none;
+}
+
+.portfolio-info-ref:hover > .portfolio-item-info-link-holder {
+    background-color: #e3524d;
+}
+
+.portfolio-info-ref:hover > .portfolio-item-info-link-holder h2 {
+    background-color: #e8645a;
+}
+
+.portfolio-info-ref h4 a {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+}
+
+.portfolio-item-info-link-holder {
+    background-color: #538b80;
+    padding: 1px;
+    border-radius: 5px;
+    margin-right: 18px;
+}
+
+.portfolio-item-info-link-holder h2 {
+    font-size: 25px;
+    background-color: #528b85;
+    border-radius: 5px;
+    padding: 18px 24px;
+    color: white;
+    margin: 0;
+}
+
+.portfolio-item-info-link-holder h2 i {
+    padding: 0 2px;
+}
+
+.portfolio-item-info h3 {
+    font-size: 20px;
+    color: rgb(127,140,140);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.portfolio-item-info p {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgb(127,140,140);
+    margin-bottom: 50px;
+}
+
+.portfolio-item-info-link-holder h2 {
+    color: white;
+    padding: 5px;
+}
+
 
 
 @media screen and (max-width: 800px) {
