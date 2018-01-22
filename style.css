@@ -433,6 +433,7 @@ li:active {
 
 .happy-clients-header {
     border-bottom: 1px solid rgb(127,140,140);
+    margin-left: 0;
 }
 
 .happy-clients-heading {
